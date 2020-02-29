@@ -7,10 +7,8 @@ const fs = require("fs");
 const render = require("./lib/htmlRenderer");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
-// Write code to use inquirer to gather information about the development team members,
-// and to create objects for each team member (using the correct classes as blueprints!)
+
 class Team {
-    // Save a reference for `this` in `this` as `this` will change inside of inquirer
     constructor() {
       this.teamSize = 0;
       this.team =[];
